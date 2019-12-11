@@ -1,0 +1,34 @@
+{
+  "name": "michalwolinski/wbiztool-laravel",
+  "description": "A WbizTool API Client Laravel integration",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Wolinski",
+      "email": "firma@haxmedia.pl"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": [
+    "wbiztool", "laravel"
+  ],
+  "require": {
+    "php": "^7.4",
+    "laravel/framework": "^6.0",
+    "michalwolinski/wbiztool-php": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Haxmedia\\WbizToolLaravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Haxmedia\\WbizToolLaravel\\Providers\\WbizToolServiceProvider"
+      ]
+    }
+  }
+}
