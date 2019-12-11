@@ -56,6 +56,7 @@ class Service {
             $type
         );
     }
+}
 ```
 
 Usage examples are at library repository - [WbizTool PHP](https://github.com/michalwolinski/wbiztool-php)
